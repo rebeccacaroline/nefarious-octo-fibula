@@ -1,2 +1,3 @@
 class WeatherCondition
+  #this will represent a specific weeather condition, i.e. sunny, rainy, 52 degrees...
 end
