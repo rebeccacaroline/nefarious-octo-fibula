@@ -1,4 +1,5 @@
 class Outfit
+  attr_accessor :outerwear, :top_and_bottom, :accessories, :shoes
   #this will be a collection of items that create one cohesive outfit that a person could wear.
 
   #This will return an item object where is_outerwear is true

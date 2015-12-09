@@ -1,4 +1,8 @@
 class Item
+  attr_accessor :type #i.e. top, bottom, top&bottom, accessory, shoe
+  has_many :weather_conditions, through :weather_items
+
+
   #this represents a single item in an outfit. sample items include a sweater, a tshirt, a scarf, or gloves
 
   def is_top?
